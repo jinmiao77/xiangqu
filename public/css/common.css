@@ -1,0 +1,27 @@
+body,html,form,div,dl,dt,dd,ul,li,ol,h1,h2,h3,h4,h5,h6,input,p,span{
+    margin:0;
+    padding:0;
+}
+li,ol,ul{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+.clearfix:after{
+    visibility: hidden;
+    display:block;
+    content:"";
+    clear: both;
+    height:0;
+}
+.clearfix{
+    zoom: 1;
+}
+body{
+    font-style: normal;
+    font-family: Tahoma, Verdana, 微软雅黑;
+    font-size: 12px;
+    line-height:1.5;
+    /* background:#000; */
+}
