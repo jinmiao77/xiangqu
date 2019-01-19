@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/heaser.css">
 </head>
 <body>
-    <header class="header">
+    <header id="header">
         <div class="head">
             <div class="site-left">
                 <h1>
@@ -21,13 +21,13 @@
             <div class="site-right">
                 <ul class="site-right-box">
                     <li class="app-download">
-                        <div class="right-menu">
+                        <div class="right-menu" onmouseout="hideImg()" onmouseover="showImg()"> 
                             <a href="javascript:;">
                                 下载App
                                 <img src="img/index/bottom.png" alt="">
                             </a>
                         </div>
-                        <div class="app-qr">
+                        <div class="app-qr" id="app-code">
                             <img src="img/index/qr.png" alt="">
                         </div>
                     </li>
@@ -38,10 +38,37 @@
                         </div>
                     </li>
                     <li class="menu-line">|</li>
-                    <li>
+                    <!-- <li>
                         <div class="right-menu">
                             <a href="login.html" class="user-login">登录</a>
-                            <a href="user_register.html">注册</a>
+                            <a href="users.html">注册</a>
+                        </div>
+                    </li> -->
+                    <li>
+                        <div class="menu-hd">
+                            <a href="">通知</a>
+                            <div class="number-box">
+                                <span></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu-hd">
+                            <a href="">购物车</a>
+                            <div class="number-box">
+                                <span>1</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu-hd user-info">
+                            <a href="" class="user-name">18325858815</a>
+                            <img src="img/index/bottom.png" alt="">
+                            <div class="user-order">
+                                <a href="">我的订单</a>
+                                <a href="">个人设置</a>
+                                <a href="">登出</a>
+                            </div>                           
                         </div>
                     </li>
                 </ul>
