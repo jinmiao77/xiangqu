@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="css/users.css">
+    <link rel="stylesheet" href="css/user_register.css">
 </head>
 <body>
 <header id="header_top">
@@ -27,7 +27,7 @@
                         <i>
                             <img src="img/login/phone.png" alt="">
                         </i>
-                        <input type="text" class="text" placeholder="请输入手机号">
+                        <input type="text" class="text" name="uname" id="uname"  placeholder="请输入手机号">
                         </div>
                     </div>
                 </li>
@@ -37,21 +37,21 @@
                             <i class="iconfont">
                                 <img src="img/login/mima.png" alt="">
                             </i>
-                            <input type="text" class="text" placeholder="请输入密码">
+                            <input type="text" class="text" name="upwd" id="upwd" placeholder="请输入密码">
                         </div>
                         <p class="phone_tip">密码由6-20位英语字母,数字或符号组成</p>
                     </div>
                 </li>
                 <li>
                     <div class="zhuce">
-                        <p class="error-tip"></p>
-                        <span class="zhuce_xq">注册想去</span>
+                        <p id="reveal" class="error-tip""></p>
+                        <input type="submit" class="zhuce_xq" name="btn" id="btn" value="注册想去"></input>
                         <p class="xieyi">注册即表示同意
                         <a href="">《用户使用条款及服务协议》</a></p>
                     </div>
                 </li>
                 <li class="login-box">
-                    <a href="#">
+                    <a href="login.html">
                         <span>登录</span>
                         <img src="img/login/arrow-right-circle.png" alt="">
                     </a>
@@ -60,6 +60,8 @@
         </div>
     </div>
 </div>
-<script src="js/users.js></script>
+<script src="js/common.js"></script>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/users.js"></script>
 </body>
 </html>

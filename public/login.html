@@ -12,7 +12,7 @@
         <div class="site-nav-top">
             <div class="site-logo">
                 <h1>
-                    <a href="#">
+                    <a href="index.html">
                         <img src="img/login/login_logo.jpg" alt="想去-买得起的好设计">
                     </a>
                 </h1>
@@ -22,7 +22,7 @@
     <div class="login-layout">
         <div class="login-left">
             <div class="login-tupian">
-               <a href="#">
+               <a href="">
                    <img src="img/login/login_left_tupian.jpg" alt="">
                </a> 
             </div>
@@ -40,13 +40,13 @@
                         <li>
                             <div class="input-item">
                                 <img src="img/login/phone.png" alt="">        
-                                <input type="text" name="uname" id="uesrname"  onchange class="input-normal" placeholder="请输入手机号或邮箱">
+                                <input type="text" name="uname" id="uname"  onchange class="input-normal" placeholder="请输入手机号或邮箱">
                             </div>
                         </li>
                         <li>
                             <div class="input-item">
                                 <img src="img/login/mima.png" alt="">
-                                <input type="password" name="password" id="password" class="input-normal" placeholder="请输入密码">
+                                <input type="password" name="upwd" id="upwd" class="input-normal" placeholder="请输入密码">
                             </div>
                         </li>
                     </ul>
@@ -60,7 +60,7 @@
                     </div>
                 </div>
                 <div class="login-btn2">
-                    <button type="submit" class="index-btn" value="登录">登录</button>
+                    <button type="submit" class="index-btn" id="login" value="登录" onclick="showLogin()">登录</button>
                 </div>
                 <div class="sj-line">
                     <span>使用社交账号登录</span>
@@ -89,7 +89,7 @@
                 <div class="faster-reg">
                     
                 还没有账号？
-                    <a href="">立即注册
+                    <a href="users.html">立即注册
                         <img src="img/login/double-right.png" alt="">
                     </a>
                 </div>
@@ -97,4 +97,7 @@
         </div>
     </div>
 </body>
+<script src="js/common.js"></script>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/login.js"></script>
 </html>
