@@ -8,12 +8,14 @@ li,ol,ul{
 a{
     text-decoration: none;
 }
+
 .clearfix:after{
     visibility: hidden;
     display:block;
     content:"";
     clear: both;
     height:0;
+    visibility:hidden;
 }
 .clearfix{
     zoom: 1;
@@ -23,5 +25,11 @@ body{
     font-family: Tahoma, Verdana, 微软雅黑;
     font-size: 12px;
     line-height:1.5;
-    /* background:#000; */
+    background:#fff;
+}
+em,i{
+    font-style: normal;
+}
+.fl{
+    float:left;
 }

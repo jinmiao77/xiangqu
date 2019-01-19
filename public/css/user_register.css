@@ -1,0 +1,186 @@
+body,html,div,dt,dd,td,th,ul,li,p,h1,h2,h3,h4,h5,h6,img,input,span{
+    margin:0;
+    padding:0;
+}
+body{
+    background: url("../img/login/brickwall.png");
+    font-family: Tahoma, Verdana, 微软雅黑;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+ul,li{
+    list-style: none;
+    }
+header{
+    width: 980px;
+    height: 98px;
+    margin:0 auto;
+    }
+div.header_xq{
+    width: 330px;
+    height: 98px;
+    text-align: center;
+    display: table;
+    overflow: hidden;
+}
+div.header_xq a{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 100%;
+}
+div.reg_end{
+    background-color: #fff;
+    width: 980px;
+    margin: 0 auto;
+    border: 1px solid #dbdbdb;
+}
+.reg_body{
+    width: 350px;
+    height: 394px;
+    margin: 0 auto;
+}
+.reg_form_head{
+    width: 100%;
+    height: 73px;
+}
+h2{
+    padding-top:25px;
+    padding-bottom:27px;
+    text-align:center;
+    font-size:14px;
+    font-weight:400;
+}
+.reg_form_body{
+    width:350px;
+    height:285px;
+    padding-bottom:36px;
+}
+.reg_form_body1{
+    width:100%;
+    height:48px;
+    vertical-align: middle;
+}
+.reg_item {
+    border: 1px solid silver;
+    border-radius: 4px;
+    text-align: left;
+    overflow: hidden;
+    height:48px;
+}
+.reg_item i{
+    line-height: 46px;
+    vertical-align: middle;
+    color: #afafaf;
+    padding: 3px 12px;
+    float: left;
+}
+.reg_form_body1>.reg_item>input:after{
+    float: left;
+    padding-right: 3px;
+    content: '';
+    visibility: visible;
+}
+.text{
+    height: 48px;
+    float: left;
+    line-height: 50px;
+    vertical-align: middle;
+    width: 305px;
+    overflow: hidden;
+    border:none;
+    outline:none;
+}
+div.reg_form_body2{
+    width:100%;
+    vertical-align:middle;
+    height:74px;
+}
+.reg_form_body2 .reg_item2{
+    border: 1px solid silver;
+    border-radius: 4px;
+    text-align: left;
+    overflow: hidden;
+    height:48px;
+}
+.reg_form_body2 .reg_item2 i{
+    line-height: 46px;
+    vertical-align: middle;
+    color: #afafaf;
+    padding: 0 10px;
+    float: left;
+}
+.reg_form_body2 .reg_item2 .input_mima{
+    width:305px;
+    height:46px;
+    float:left;
+    line-height: 46px;
+    vertical-align:middle;
+    overflow:hidden;
+}
+p.phone_tip{
+    width:100%;
+    height:21px;
+    padding-top:5px;
+    color:#d3d3d3;
+}
+div.zhuce {
+    width: 100%;
+    height: 134px;
+}
+.reg_form_body ul li .zhuce .error-tip{
+    width:100%;
+    height:30px;
+    line-height:26px;
+    color:#ff4a4a;
+} 
+.reg_form_body ul li .zhuce .zhuce_xq{
+    display: inline-block;
+    background:#343434;
+    color:#fff;
+    text-align:center;
+    height:48px;
+    line-height: 48px;
+    width:100%;
+    padding:0;
+    border-radius:4px ;
+    outline: none;
+    cursor:pointer;
+	border: none ;
+}
+.reg_form_body ul li .zhuce .xieyi{
+    width:100%;
+    height:21px;
+    padding: 5px 0 30px;
+    color:#707070;
+}
+.reg_form_body ul li .zhuce .xieyi a{
+    color:#000;
+}
+.reg_form_body ul .login-box{
+    width:350px;
+    height:19px;
+    text-align:center;
+    font-size:12px;
+}
+
+.reg_form_body ul .login-box a{
+    color:#000;
+    position:relative;
+    width:40px;
+    height: 14px;
+    margin:0 auto;
+}
+.reg_form_body ul .login-box img{
+    display:inline-block;
+    position:absolute;
+    left:25px;
+    top:0;
+}
+
+
+
